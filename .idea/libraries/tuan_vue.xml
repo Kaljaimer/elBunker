@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tuan-vue">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/tuan/tuan-vue.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
