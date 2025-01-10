@@ -4,8 +4,7 @@
       <v-row class="align-items-center">
         <v-col cols="12" lg="6" md="6">
           <p class="mb-2 mb-md-0 text-center text-md-start">
-            © <span>Tuan.</span> All Rights Reserved by
-            <a href="https://envytheme.com/" target="_blank">EnvyTheme</a>
+            Copyright © 2025 · <span>HARDWARE YOU S.L.U.</span>
           </p>
         </v-col>
         <v-col cols="12" lg="6" md="6">

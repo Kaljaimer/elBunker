@@ -22,7 +22,7 @@
     <div class="offcanvas-body">
       <v-expansion-panels variant="accordion" v-model="panel">
         <v-expansion-panel>
-          <v-expansion-panel-title>Home</v-expansion-panel-title>
+          <v-expansion-panel-title>Inicio</v-expansion-panel-title>
           <v-expansion-panel-text>
             <ul class="mobile-menu-items">
               <li>

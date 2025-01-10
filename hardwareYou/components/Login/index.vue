@@ -16,31 +16,30 @@
             <div class="authentication-form">
               <ul class="nav nav-tabs login-tabs" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
-                  <NuxtLink to="/login" class="nav-link active">Login</NuxtLink>
+                  <NuxtLink to="/login" class="nav-link active">Acceso</NuxtLink>
                 </li>
                 <li class="nav-item" role="presentation">
                   <NuxtLink to="/register" class="nav-link">Register</NuxtLink>
                 </li>
               </ul>
               <p>
-                If you have an account, sign in with your username or email
-                address.
+                Si tienes una cuenta, inicia sesión con tu nombre de usuario o tu correo electrónico.
               </p>
               <form>
                 <div class="form-group mb-4">
-                  <label class="label">Username or Email Address *</label>
+                  <label class="label">Usuario o correo electrónico *</label>
                   <input
                     type="text"
                     class="form-control"
-                    placeholder="Enter your user name"
+                    placeholder="Introduce usuario o correo electrónico"
                   />
                 </div>
                 <div class="form-group mb-4">
-                  <label class="label">Your Password *</label>
+                  <label class="label">Contraseña *</label>
                   <input
                     type="password"
                     class="form-control"
-                    placeholder="Enter your  password"
+                    placeholder="Introduce contraseña"
                   />
                 </div>
                 <div class="d-flex justify-content-between mb-4">
@@ -52,11 +51,11 @@
                       id="flexCheckDefault"
                     />
                     <label class="form-check-label" for="flexCheckDefault">
-                      Remember
+                      Recordarme
                     </label>
                   </div>
                   <NuxtLink to="/forgot-password" class="text-primary">
-                    Lost your password?
+                    ¿Olvidaste tu contraseña?
                   </NuxtLink>
                 </div>
                 <div class="form-group mb-4">
@@ -64,17 +63,17 @@
                     type="submit"
                     class="btn btn-warning btn-pill text-white w-100 d-block"
                   >
-                    Login
+                    Acceso
                   </button>
                 </div>
                 <div class="form-group mb-0">
                   <p class="text-secondary ms-1 text-primary">
-                    Don’t have an account?
+                    ¿No tienes una cuenta?
                     <NuxtLink
                       to="/register"
                       class="text-decoration-none text-primary"
                     >
-                      Register
+                      Registro
                     </NuxtLink>
                   </p>
                 </div>

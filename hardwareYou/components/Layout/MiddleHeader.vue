@@ -13,14 +13,14 @@
               <input
                 type="text"
                 class="form-control border-2"
-                placeholder="Search for products..."
+                placeholder="Buscar productos..."
               />
               <button
                 type="submit"
                 class="position-absolute top-50 end-0 translate-middle-y btn btn-primary fs-14 fw-medium text-white"
               >
                 <i class="ri-search-line"></i>
-                <span class="d-none d-sm-inline-block">Search</span>
+                <span class="d-none d-sm-inline-block">Buscar</span>
               </button>
             </div>
           </div>
@@ -36,8 +36,7 @@
                   <i class="ri-user-line"></i>
                 </div>
                 <div class="flex-grow-1 ms-10 header-button-text">
-                  <span>Login Your</span>
-                  <h3>Account</h3>
+                  <span>Acceso</span>
                 </div>
               </div>
             </NuxtLink>
@@ -67,8 +66,8 @@
                     </div>
                   </div>
                   <div class="flex-grow-1 ms-1">
-                    <span>Your Cart</span>
-                    <h3>$0.00</h3>
+                    <span>Carrito</span>
+                    <h3>0.00€</h3>
                   </div>
                 </div>
               </a>

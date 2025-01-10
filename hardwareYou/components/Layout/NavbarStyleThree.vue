@@ -3,9 +3,10 @@
     <div class="container mw-1610">
       <NuxtLink class="navbar-brand d-lg-none" to="/">
         <img
-          src="~/assets/images/grocery-shop-logo.png"
+          src="~/assets/images/logoHY.svg"
           class="main-logo"
           alt="white-logo"
+          width="300"
         />
       </NuxtLink>
       <a
@@ -551,7 +552,7 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav me-auto ms-68">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#"> Home </a>
+            <a class="nav-link dropdown-toggle" href="#"> Inicio </a>
 
             <ul class="dropdown-menu">
               <li>

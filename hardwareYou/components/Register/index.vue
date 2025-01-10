@@ -16,41 +16,40 @@
             <div class="authentication-form">
               <ul class="nav nav-tabs login-tabs" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
-                  <NuxtLink to="/login" class="nav-link">Login</NuxtLink>
+                  <NuxtLink to="/login" class="nav-link">Acceso</NuxtLink>
                 </li>
                 <li class="nav-item" role="presentation">
                   <NuxtLink to="/register" class="nav-link active">
-                    Register
+                    Registro
                   </NuxtLink>
                 </li>
               </ul>
               <p>
-                If you have an account, sign in with your username or email
-                address.
+                Si no tienes una cuenta, regístrate con tu nombre de usuario o tu correo electrónico.
               </p>
               <form>
                 <div class="form-group mb-4">
-                  <label class="label">Username *</label>
+                  <label class="label">Usuario *</label>
                   <input
                     type="text"
                     class="form-control"
-                    placeholder="Enter your user name"
+                    placeholder="Introduzca usuario"
                   />
                 </div>
                 <div class="form-group mb-4">
-                  <label class="label">Email Address *</label>
+                  <label class="label">Correo electrónico *</label>
                   <input
                     type="email"
                     class="form-control"
-                    placeholder="Enter your  email address"
+                    placeholder="Introduzca correo electrónico"
                   />
                 </div>
                 <div class="form-group mb-4">
-                  <label class="label">Password *</label>
+                  <label class="label">Contraseña *</label>
                   <input
                     type="password"
                     class="form-control"
-                    placeholder="Enter  password"
+                    placeholder="Introduzca contraseña"
                   />
                 </div>
                 <div class="form-group mb-4">
@@ -58,17 +57,17 @@
                     type="submit"
                     class="btn btn-warning btn-pill text-white w-100 d-block"
                   >
-                    Register
+                    Registrarse
                   </button>
                 </div>
                 <div class="form-group mb-0">
                   <p class="text-secondary ms-1 text-primary">
-                    Already have an account?
+                    ¿Ya tienes una cuenta?
                     <NuxtLink
                       to="/login"
                       class="text-decoration-none text-primary"
                     >
-                      Login
+                      Acceso
                     </NuxtLink>
                   </p>
                 </div>

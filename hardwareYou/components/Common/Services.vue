@@ -8,8 +8,8 @@
               <img src="~/assets/images/shipped.png" alt="shipped" />
             </div>
             <div class="flex-grow-1 ms-3">
-              <h3>Fast Delivery</h3>
-              <span>Experience Lightning-Fast Delivery</span>
+              <h3>Entrega rápida</h3>
+              <span>Experiencia en entrega rápida</span>
             </div>
           </div>
         </v-col>
@@ -19,8 +19,8 @@
               <img src="~/assets/images/credit.png" alt="shipped" />
             </div>
             <div class="flex-grow-1 ms-3">
-              <h3>Secured Payment</h3>
-              <span>Shop with Confidence</span>
+              <h3>Pago seguro</h3>
+              <span>Compra de confianza</span>
             </div>
           </div>
         </v-col>
@@ -30,8 +30,8 @@
               <img src="~/assets/images/wallet.png" alt="shipped" />
             </div>
             <div class="flex-grow-1 ms-3">
-              <h3>Money Back</h3>
-              <span>100% Money-Back Guarantee</span>
+              <h3>Devoluciones</h3>
+              <span>Devoluciones 100% garantizadas</span>
             </div>
           </div>
         </v-col>
@@ -41,8 +41,8 @@
               <img src="~/assets/images/headphones.png" alt="shipped" />
             </div>
             <div class="flex-grow-1 ms-3">
-              <h3>24/7 Support</h3>
-              <span>Always Here for You</span>
+              <h3>Soporte 24/7</h3>
+              <span>Siempre disponibles para ti</span>
             </div>
           </div>
         </v-col>

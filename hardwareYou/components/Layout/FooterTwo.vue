@@ -5,7 +5,7 @@
         <v-row class="justify-content-center">
           <v-col cols="12" lg="3" sm="6">
             <div class="single-footer-widget">
-              <h3>About The Shop</h3>
+              <h3>Sobre nosotros</h3>
               <p>
                 We're not just an online store; we're your gateway to a world of
                 cutting-edge electronics and telemobile devices
@@ -107,47 +107,26 @@
               class="ps-0 mb-0 list-unstyled d-flex align-items-center social-link ms-0 justify-content-md-start justify-content-center"
             >
               <li>
-                <span class="titles">Follow Us:</span>
+                <span class="titles">Síguenos:</span>
               </li>
               <li>
-                <a href="https://www.facebook.com/" target="_blank">
-                  <i class="ri-facebook-fill"></i>
+                <a href="https://www.instagram.com/hardwareyou.es/" target="_blank">
+                  <i class="ri-instagram-line"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.twitter.com/" target="_blank">
+                <a href="https://x.com/i/flow/login?redirect_after_login=%2Fhardware_you" target="_blank">
                   <i class="ri-twitter-x-line"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/" target="_blank">
+                <a href="https://www.linkedin.com/in/mario-lorente-mantas-800871140/" target="_blank">
                   <i class="ri-linkedin-fill"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.whatsapp.com/" target="_blank">
-                  <i class="ri-whatsapp-line"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </v-col>
-        <v-col cols="12" lg="6" md="6">
-          <div class="single-footer-bottom-item">
-            <ul
-              class="ps-0 mb-0 list-unstyled d-flex align-items-center justify-content-center justify-content-lg-end app-link"
-            >
-              <li>
-                <span class="titles">Download App:</span>
-              </li>
-              <li>
-                <a href="https://www.apple.com/store" target="_blank">
-                  <img src="~/assets/images/ios.svg" alt="ios" />
-                </a>
-              </li>
-              <li>
-                <a href="https://play.google.com/store/games" target="_blank">
-                  <img src="~/assets/images/gplay.svg" alt="gplay" />
+                <a href="https://www.tiktok.com/@hardwareyou.es" target="_blank">
+                  <i class="ri-tiktok-line"></i>
                 </a>
               </li>
             </ul>

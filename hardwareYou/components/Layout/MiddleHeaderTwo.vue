@@ -6,7 +6,7 @@
           class="d-flex align-items-center middle-header-left justify-content-center justify-content-lg-end"
         >
           <NuxtLink to="/" class="d-none d-lg-block middle-logo">
-            <img src="~/assets/images/grocery-shop-logo.png" alt="logo" />
+            <img src="~/assets/images/logoHY.svg" width="300" alt="logo" />
           </NuxtLink>
           <div class="d-flex">
             <div class="dropdown">
@@ -42,7 +42,7 @@
               <input
                 type="text"
                 class="form-control border-2"
-                placeholder="Search for products..."
+                placeholder="Buscar productos..."
               />
               <button
                 type="submit"
@@ -58,19 +58,6 @@
         <ul
           class="d-flex middle-header-right ps-0 mb-0 list-unstyled justify-content-center justify-content-lg-end mt-3 mt-lg-0"
         >
-          <li class="info">
-            <NuxtLink to="/login" class="text-decoration-none">
-              <div class="d-flex align-items-center">
-                <div class="flex-shrink-0">
-                  <i class="ri-phone-line bg-danger-10"></i>
-                </div>
-                <div class="flex-grow-1 ms-10">
-                  <span>Hotline</span>
-                  <h3>(808) 555-0111</h3>
-                </div>
-              </div>
-            </NuxtLink>
-          </li>
           <li class="buy-info position-relative tops-3">
             <NuxtLink to="/login" class="text-decoration-none success-hover-bg">
               <div class="d-flex align-items-center">

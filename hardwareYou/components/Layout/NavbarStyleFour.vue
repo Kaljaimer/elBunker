@@ -8,9 +8,10 @@
     <div class="container mw-1610">
       <NuxtLink class="navbar-brand d-lg-none" to="/">
         <img
-          src="~/assets/images/grocery-shop-logo.png"
+          src="~/assets/images/logoHY.svg"
           class="main-logo"
           alt="white-logo"
+          width="300"
         />
       </NuxtLink>
       <a
@@ -28,7 +29,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#"> Home </a>
+            <a class="nav-link dropdown-toggle" href="#"> Inicio </a>
 
             <ul class="dropdown-menu">
               <li>
@@ -258,41 +259,6 @@
           </li>
         </ul>
       </div>
-
-      <ul
-        class="d-none d-lg-flex others-options grocery-options ps-0 mb-0 list-unstyled justify-content-end"
-      >
-        <li class="info">
-          <a href="tel:808-555-0111" class="text-decoration-none">
-            <div class="d-flex align-items-center">
-              <div class="flex-shrink-0">
-                <i class="ri-phone-line bg-danger-10"></i>
-              </div>
-              <div class="flex-grow-1 ms-10">
-                <span>Hotline</span>
-                <h3>(808) 555-0111</h3>
-              </div>
-            </div>
-          </a>
-        </li>
-        <li class="info">
-          <a
-            href="#"
-            class="text-decoration-none success-hover-bg"
-            @click="stateStoreInstance.onChange"
-          >
-            <div class="d-flex align-items-center">
-              <div class="flex-shrink-0">
-                <i class="ri-map-pin-2-line"></i>
-              </div>
-              <div class="flex-grow-1 ms-10">
-                <span>Deliver to</span>
-                <h3>Find Location</h3>
-              </div>
-            </div>
-          </a>
-        </li>
-      </ul>
     </div>
   </div>
 </template>

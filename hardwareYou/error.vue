@@ -6,7 +6,7 @@
         <h3>Oops! page is not found</h3>
         <p>Sorry, but the page you are looking for does not exist.</p>
         <NuxtLink to="/" class="btn btn-warning text-white">
-          Back To Homepage
+          Volver a Inicio
         </NuxtLink>
       </div>
     </div>

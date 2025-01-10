@@ -2,7 +2,7 @@
   <div>
     <LayoutMiddleHeader />
     <LayoutNavbarStyleFour />
-    <CommonPageBanner pageTitle="Register" />
+    <CommonPageBanner pageTitle="Registro" />
     <Register />
     <CommonServices class="bg-gray1" />
     <LayoutFooter />

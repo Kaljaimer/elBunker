@@ -2,7 +2,7 @@
   <div>
     <LayoutMiddleHeader />
     <LayoutNavbarStyleFour />
-    <CommonPageBanner pageTitle="Login" />
+    <CommonPageBanner pageTitle="Acceso" />
     <Login />
     <CommonServices class="bg-gray1" />
     <LayoutFooter />
