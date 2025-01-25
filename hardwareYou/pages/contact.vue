@@ -2,8 +2,8 @@
   <div>
     <LayoutMiddleHeader />
     <LayoutNavbarStyleFour />
-    <CommonPageBanner pageTitle="Contact" />
-    <ContactInfo />
+    <CommonPageBanner pageTitle="Contacto" />
+<!--    <ContactInfo /> Commented since we don´t know the location-->
     <ContactForm />
     <CommonServices class="bg-gray1" />
     <LayoutFooter />

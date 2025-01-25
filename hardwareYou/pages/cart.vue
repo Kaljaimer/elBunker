@@ -2,7 +2,7 @@
   <div>
     <LayoutMiddleHeader />
     <LayoutNavbarStyleFour />
-    <CommonPageBanner pageTitle="Cart" />
+    <CommonPageBanner pageTitle="Carrito" />
     <Cart />
     <CommonServices class="bg-gray1" />
     <LayoutFooter />

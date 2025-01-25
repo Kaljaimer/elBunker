@@ -23,15 +23,15 @@
                 </li>
               </ul>
               <p>
-                Si tienes una cuenta, inicia sesión con tu nombre de usuario o tu correo electrónico.
+                Si tienes una cuenta, inicia sesión con tu nombre de usuario o tu email.
               </p>
               <form>
                 <div class="form-group mb-4">
-                  <label class="label">Usuario o correo electrónico *</label>
+                  <label class="label">Usuario o email *</label>
                   <input
                     type="text"
                     class="form-control"
-                    placeholder="Introduce usuario o correo electrónico"
+                    placeholder="Introduce usuario o email"
                   />
                 </div>
                 <div class="form-group mb-4">

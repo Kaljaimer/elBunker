@@ -63,8 +63,8 @@
       </Swiper>
 
       <div class="container">
-        <div class="banner-controller">
-          <div class="d-flex justify-content-between align-items-center">
+        <div class="banner-controller mr-auto" style="max-width: 80vw; margin: 0;">
+          <div class="d-flex justify-content-between align-items-center" style="width: 100%; margin-left: 10vw;">
             <div class="controller-icon prev">
               <i class="flaticon-chevron"></i>
             </div>

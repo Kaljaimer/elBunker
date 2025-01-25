@@ -37,11 +37,11 @@
                   />
                 </div>
                 <div class="form-group mb-4">
-                  <label class="label">Correo electrónico *</label>
+                  <label class="label">Email *</label>
                   <input
                     type="email"
                     class="form-control"
-                    placeholder="Introduzca correo electrónico"
+                    placeholder="Introduzca email"
                   />
                 </div>
                 <div class="form-group mb-4">

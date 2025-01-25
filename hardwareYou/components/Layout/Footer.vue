@@ -13,7 +13,7 @@
                       <input
                           type="text"
                           class="form-control"
-                          placeholder="Correo electrónico"
+                          placeholder="Email"
                       />
                       <button
                           class="btn btn-warning text-white position-absolute top-50 end-0 translate-middle-y"
