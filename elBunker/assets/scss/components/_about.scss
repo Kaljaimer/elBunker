@@ -1,0 +1,58 @@
+/* About Area Style
+============================================*/
+.about-content {
+  text-align: center;
+  h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  p {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .about-video {
+    video {
+      width: 100%;
+      border-radius: var(--borderRadius6);
+    }
+  }
+}
+.single-counter-item {
+  border: 1px solid var(--borderColor);
+  text-align: center;
+  border-radius: var(--borderRadius6);
+  padding: 25px;
+  margin-bottom: 25px;
+  h2 {
+    font-size: 25px;
+    color: var(--primary);
+  }
+  h3 {
+    font-size: 18px;
+    color: var(--secondary);
+  }
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+}
+
+/* Min width 768px to Max width 992px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Min width 1200px to Max width 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+}
+
+/* Min width 1400px to Max width 1799px */
+@media only screen and (min-width: 1400px) and (max-width: 1799px) {
+}
+
+@media only screen and (max-width: 1199px) {
+}

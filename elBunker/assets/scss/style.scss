@@ -1,0 +1,40 @@
+/**
+@File: Tuan Template Styles
+
+* This file contains the styling for the actual template, this
+is the file you need to edit to change the look of the template.
+
+This files table contents are outlined below>>>>>
+
+*******************************************
+**/
+
+// Default variable overrides
+@import "./variables";
+
+// Components
+@import "./components/global";
+@import "./components/preloader";
+@import "./components/backtoptop";
+@import "./components/pagination";
+@import "./components/filter-rang";
+@import "./components/header";
+@import "./components/navbar";
+@import "./components/banner";
+@import "./components/best-deals";
+@import "./components/products";
+@import "./components/offers";
+@import "./components/hurry";
+@import "./components/services";
+@import "./components/footer";
+@import "./components/categories";
+@import "./components/faq";
+@import "./components/authentication";
+@import "./components/blog";
+@import "./components/sidebar";
+@import "./components/cart";
+@import "./components/checkout";
+@import "./components/about";
+@import "./components/dashboard";
+@import "./components/popup";
+@import "./components/rtl";

@@ -1,0 +1,124 @@
+/* Authentication Area Style
+============================================*/
+.authentication-content {
+  max-width: 856px;
+  margin: auto;
+  border: 1px solid var(--borderColor);
+  border-radius: var(--borderRadius6);
+  &.p-50 {
+    padding: 50px;
+  }
+  .form-wrap {
+    padding: 0;
+    padding-left: 36px;
+    padding-right: 10px;
+  }
+  img {
+    border-radius: var(--borderRadius6) 0 0 var(--borderRadius6);
+  }
+}
+.authentication-form {
+  padding: 50px 40px;
+  padding-left: 28px;
+  .title {
+    font-size: 18px;
+  }
+}
+.login-tabs {
+  border: none;
+  margin-bottom: 30px;
+  .nav-item {
+    margin-right: 30px;
+    &:last-child {
+      margin-right: 0;
+    }
+    .nav-link {
+      border: none;
+      font-size: 22px;
+      font-family: var(--fontFamilyBold);
+      color: var(--bodyColor);
+      padding: 4px 19px;
+      border-bottom: 2px solid var(--white);
+      &.active {
+        color: var(--secondary);
+        background-color: var(--gray1);
+        border-radius: var(--borderRadius6) var(--borderRadius6) 0 0;
+        border-bottom: 2px solid var(--warning);
+      }
+    }
+  }
+  &.v-tabs {
+    .v-tab.v-tab.v-btn {
+      font-size: 22px;
+      font-family: var(--fontFamilyBold);
+      color: var(--bodyColor);
+      padding: 4px 19px;
+      border-bottom: 2px solid var(--white);
+      border: 0;
+      margin-right: 30px;
+      &:last-child {
+        margin-right: 0;
+      }
+      &.v-tab-item--selected,
+      &.v-tab--selected {
+        color: var(--secondary);
+        background-color: var(--gray1);
+        border-radius: var(--borderRadius6) var(--borderRadius6) 0 0;
+        border-bottom: 2px solid var(--warning);
+        .v-tab__slider {
+          display: none;
+        }
+      }
+    }
+  }
+}
+.single-contact-info-item {
+  margin-bottom: 25px;
+  i {
+    font-size: 35px;
+    color: var(--warning);
+    width: 56px;
+    height: 56px;
+    line-height: 67px;
+    text-align: center;
+    display: inline-block;
+    background-color: var(--gray1);
+    border-radius: 50px;
+  }
+  h3 {
+    font-size: 18px;
+    font-family: var(--fontFamilyBold);
+  }
+  p {
+    font-size: var(--fontSize17);
+  }
+  .tell {
+    display: block;
+    font-size: 18px;
+    font-family: var(--fontFamilyBold);
+    text-decoration: none;
+    color: var(--secondary);
+  }
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .authentication-form {
+    padding: 20px;
+    &.form-wrap {
+      padding: 25px;
+    }
+  }
+  .authentication-content {
+    &.p-50 {
+      padding: 0;
+    }
+  }
+  .login-tabs {
+    .nav-item {
+      .nav-link {
+        font-size: 20px;
+      }
+    }
+  }
+}

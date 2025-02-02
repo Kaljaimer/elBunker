@@ -1,0 +1,71 @@
+/*
+Page-navigation Area Style
+======================================================*/
+.pagination-area {
+  .page-numbers {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 16px;
+    color: var(--bodyColor);
+    text-decoration: none;
+    transition: var(--transition);
+    border-radius: 50px;
+    background-color: var(--white);
+    position: relative;
+    i {
+      font-size: 22px;
+      font-weight: normal;
+      color: var(--bodyColor);
+      transition: var(--transition);
+    }
+    &:hover {
+      color: var(--dark);
+      background-color: var(--white);
+      i {
+        color: var(--white);
+      }
+    }
+    &.next {
+      top: 3px;
+      background-color: var(--gray2);
+      &:hover {
+        background-color: var(--primary);
+        color: var(--white);
+      }
+    }
+    &:hover {
+      color: var(--secondary);
+    }
+    &.current {
+      color: var(--secondary);
+    }
+  }
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+}
+
+/* Min width 768px to Max width 992px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Min width 1200px to Max width 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+}
+
+/* Min width 1400px to Max width 1799px */
+@media only screen and (min-width: 1400px) and (max-width: 1799px) {
+}
+
+@media only screen and (max-width: 1199px) {
+}

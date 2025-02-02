@@ -1,0 +1,108 @@
+/* Cart Area Style
+============================================*/
+.cart-table {
+  table {
+    width: 1295px;
+    thead {
+      tr {
+        border-color: #d9d9d9;
+        th {
+          font-size: 14px;
+          color: var(--dark);
+          background-color: #fffbf5;
+          padding: 20px 30px;
+        }
+      }
+    }
+    tbody {
+      tr {
+        border-left: 1px solid #d9d9d9;
+        border-right: 1px solid #d9d9d9;
+        td {
+          padding: 20px 30px;
+          border-color: #d9d9d9;
+          .cart-product {
+            width: 80px;
+          }
+          a {
+            display: block;
+            color: var(--primary);
+            text-decoration: none;
+          }
+          .title {
+            width: 250px;
+            color: var(--secondary);
+          }
+          .price {
+            font-size: 16px;
+            font-family: var(--fontFamilyBold);
+            color: var(--bodyColor);
+          }
+          .remove {
+            i {
+              font-size: 20px;
+              color: var(--danger);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.coupon-wrap {
+  .form-control {
+    width: 200px;
+    margin-right: 10px;
+    height: 41px;
+  }
+}
+.total-cart {
+  background-color: #fffbf5;
+  max-width: 730px;
+  padding: 70px;
+  margin-top: 60px;
+  h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  ul {
+    padding-left: 0;
+    margin-bottom: 20px;
+    list-style: none;
+    li {
+      padding: 20px 30px;
+      border: 1px solid #d9d9d9;
+      background-color: var(--white);
+      line-height: 1;
+      border-bottom: none;
+      .title {
+        font-size: 14px;
+        color: var(--dark);
+      }
+      .price {
+        font-family: var(--fontFamilyBold);
+        font-size: 16px;
+        color: var(--secondary);
+      }
+      &:last-child {
+        border-bottom: 1px solid #d9d9d9;
+      }
+    }
+  }
+}
+
+/* Max width 767px */
+@media only screen and (max-width: 767px) {
+  .total-cart {
+    padding: 20px;
+    margin-top: 30px;
+  }
+}
+
+/* Min width 768px to Max width 992px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .total-cart {
+    padding: 30px;
+    margin-top: 30px;
+  }
+}
