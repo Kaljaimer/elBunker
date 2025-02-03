@@ -1,0 +1,1 @@
+import{_ as n}from"./VbfvlB8l.js";import{_}from"./D1Wvezpn.js";import{_ as r,c,b as e,o as s}from"./DvmhF2OU.js";const a={name:"RegisterPage"};function p(m,i,d,f,u,l){const o=n,t=_;return s(),c("div",null,[e(o),e(t)])}const k=r(a,[["render",p]]);export{k as default};

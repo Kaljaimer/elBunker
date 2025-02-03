@@ -1,0 +1,1 @@
+import{_ as t}from"./VbfvlB8l.js";import{_}from"./D1Wvezpn.js";import{_ as c,c as r,b as e,o as s}from"./DvmhF2OU.js";const a={name:"El Bunker"};function p(m,d,i,u,f,l){const o=t,n=_;return s(),r("div",null,[e(o),e(n)])}const B=c(a,[["render",p]]);export{B as default};
