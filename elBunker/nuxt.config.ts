@@ -4,6 +4,8 @@ import vuetify, { transformAssetUrls } from "vite-plugin-vuetify";
 
 export default defineNuxtConfig({
   app: {
+    baseURL: '/elBunker/', // baseURL: '/<repository>/'
+    buildAssetsDir: 'assets', // don't use "_" at the begining of the folder name to avoids nojkill conflict
     pageTransition: {
       name: "fade",
       mode: "out-in",

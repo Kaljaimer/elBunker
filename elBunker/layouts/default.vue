@@ -2,11 +2,7 @@
   <div>
     <LayoutPreloader v-if="isLoading" />
     <NuxtPage />
-    <LayoutResponsiveNavbar />
-    <LayoutLocationOption />
-    <LayoutCopyright />
     <LayoutBackToUp />
-<!--    <LayoutRTLSwitchBtn /> Uncomment if we want to switch left to right-->
   </div>
 </template>
 

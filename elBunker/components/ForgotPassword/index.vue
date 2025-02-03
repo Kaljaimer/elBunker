@@ -1,5 +1,5 @@
 <template>
-  <div class="authentication-area ptb-60">
+  <div class="authentication-area ptb-20">
     <div class="container">
       <div class="authentication-content">
         <div class="row align-items-center">

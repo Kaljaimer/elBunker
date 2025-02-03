@@ -1,5 +1,5 @@
 <template>
-  <div class="authentication-area ptb-60">
+  <div class="authentication-area ptb-20">
     <div class="container">
       <div class="authentication-content">
         <div class="row">
@@ -8,7 +8,7 @@
               <img
                 src="~/assets/images/register.png"
                 class="h-100 object-fit-cover"
-                alt="register"
+                alt="Registro"
               />
             </div>
           </div>

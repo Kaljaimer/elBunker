@@ -6,7 +6,7 @@
           class="d-flex align-items-center middle-header-left justify-content-center justify-content-lg-end"
         >
           <NuxtLink to="/" class="d-none d-lg-block middle-logo style-two">
-            <img src="~/assets/images/logoHY.svg" width="300" alt="logo" />
+            <img src="~/assets/images/logoBunker.svg" width="300" alt="logo" />
           </NuxtLink>
           <div class="position-relative search-style-two">
             <input

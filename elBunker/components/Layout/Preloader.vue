@@ -2,18 +2,14 @@
   <div id="preloader">
     <div class="preloader">
       <div class="waviy">
-        <span>H</span>
-        <span>A</span>
-        <span>R</span>
-        <span>D</span>
-        <span>W</span>
-        <span>A</span>
-        <span>R</span>
         <span>E</span>
-        <span>.</span>
-        <span>Y</span>
-        <span>O</span>
+        <span>L</span>
+        <span>B</span>
         <span>U</span>
+        <span>N</span>
+        <span>K</span>
+        <span>E</span>
+        <span>R</span>
       </div>
     </div>
   </div>

@@ -4,7 +4,7 @@
 
 <script setup lang="ts">
 useHead({
-  title: "Tuan - Nuxt.js eCommerce Template",
-  meta: [{ name: "description", content: "My amazing Template." }],
+  title: "El Bunker",
+  meta: [{ name: "description", content: "Bienvenido a El Bunker." }],
 });
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="authentication-area ptb-60">
+  <div class="authentication-area ptb-20">
     <div class="container">
       <div class="authentication-content">
         <div class="row">
@@ -19,7 +19,7 @@
                   <NuxtLink to="/login" class="nav-link active">Acceso</NuxtLink>
                 </li>
                 <li class="nav-item" role="presentation">
-                  <NuxtLink to="/register" class="nav-link">Register</NuxtLink>
+                  <NuxtLink to="/register" class="nav-link">Registro</NuxtLink>
                 </li>
               </ul>
               <p>

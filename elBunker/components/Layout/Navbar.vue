@@ -3,7 +3,7 @@
     <div class="container mw-1610">
       <NuxtLink class="navbar-brand d-lg-none" to="/">
         <img
-          src="~/assets/images/logoHY.svg"
+          src="~/assets/images/logoBunker.svg"
           class="main-logo"
           alt="white-logo"
           width="300px"
